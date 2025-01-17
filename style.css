@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: system-ui;
+}
+/* main container style */
+.cruds {
+  width: 90%;
+  margin: auto;
+}
+/* header style */
+.cruds .head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+/* inputs style */
+
+input {
+  width: 100%;
+  height: 30px;
+  background-color: #111;
+  padding: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+input:focus {
+  background-color: #000;
+}
+
+.price input {
+  width: 20%;
+}
+#total {
+  background-color: #df1a1a;
+  padding: 4px 2px;
+  border-radius: 4px;
+}
+
+#total::before {
+  content: "Total: ";
+}
+
+button {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #1fab03;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #24c305;
+  letter-spacing: 1px;
+  transform: scale(1.01);
+}
+
+/* outputs style */
+
+.searchBtn .btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBtn .btns button {
+  width: 45%;
+}
+
+#deleteAll {
+  margin: 15px 0;
+  display: none;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+table th {
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 5px;
+  background-color: #111;
+}
